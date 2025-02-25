@@ -35,14 +35,14 @@ public class SimpleWebInterface {
             out.println("<html><body>");
             out.println("<h2>Enter values</h2>");
             out.println("<form method='POST'>");
-            out.println("Value: <input type='text' name='value1'/>");
-            out.println("Value: <input type='text' name='value2'/>");
-            out.println("Value: <input type='text' name='value3'/>");
-            out.println("Value: <input type='text' name='value4'/>");
+            out.println("Name <input type='text' name='value1'/>");
+            out.println("Total loan: <input type='text' name='value2'/>");
+            out.println("Interest (%): <input type='text' name='value3'/>");
+            out.println("Years: <input type='text' name='value4'/>");
             out.println("<input type='submit' value='Submit'/>");
             out.println("</form>");
             
-            out.println("<h3>Current Values:</h3>");
+            out.println("<h3>Prospects:</h3>");
             out.println("<p>" + com.ckcdt.app.Main.output(values).replace("\n", "<br>") + "</p>");
             
             out.println("</body></html>");
