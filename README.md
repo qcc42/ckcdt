@@ -1,12 +1,17 @@
 #  How to run
 Pre-requisites:
+
 maven
+
 docker
 
 How to run:
-mvn package
-docker build -t ckcdt .
-docker run -p 8080:8080 ckcdt
+
+```
+$ mvn package
+$ docker build -t ckcdt .
+$ docker run -p 8080:8080 ckcdt
+```
 
 Open browser
 
